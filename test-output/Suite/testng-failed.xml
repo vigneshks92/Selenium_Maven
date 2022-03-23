@@ -2,13 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="Param2" value="Simple@25052017"/>
+    <parameter name="Param1" value="vigneshpri026@gmail.com"/>
     <classes>
       <class name="testcases.LoginTest">
         <methods>
-          <include name="LoginSuccessTest"/>
           <include name="TearDown"/>
+          <include name="ExternalDataTest"/>
           <include name="SetUp"/>
-          <include name="LoginFailureTest"/>
+          <include name="DataTearDown"/>
+          <include name="DataSetUP"/>
         </methods>
       </class> <!-- testcases.LoginTest -->
     </classes>

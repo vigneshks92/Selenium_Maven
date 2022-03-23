@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-	<parameter name="Param1" value = "ghtr@cvg.com"/>
-  	<parameter name="Param2" value = "Abcd@1234"/>
+	<parameter name="Param1" value = "vigneshpri026@gmail.com"/>
+  	<parameter name="Param2" value = "Simple@25052017"/>
     <classes>
       <class name="testcases.LoginTest"/>
     </classes>

@@ -19,7 +19,7 @@ public class LoginTest extends BaseClass {
 	@Test
 	public void LoginFailureTest() {
 		
-		test = reports.startTest("LoginFailureTest");
+		//test = reports.startTest("LoginFailureTest");
 		
 		LoginPage login = new LoginPage();
 		login.LoginFunction("fgfdgfd@fgf.com","Abcd@1234");
@@ -30,11 +30,11 @@ public class LoginTest extends BaseClass {
 		
 		Assert.assertEquals(ActualMsg, ExpectedMsg);
 		
-		reports.endTest(test);
+		//reports.endTest(test);
 		
 	}
 	
-	/*@Test
+	@Test
 	public void LoginSuccessTest() {
 		
 		LoginPage login = new LoginPage();
@@ -49,7 +49,7 @@ public class LoginTest extends BaseClass {
 		LoginPage login = new LoginPage();
 		login.LoginFunction(UserNameVal,PasswordVal);		
 		
-	}*/
+	}
 
 	@Test
 	public void ExternalDataTest() {
